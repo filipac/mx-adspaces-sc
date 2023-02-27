@@ -36,7 +36,7 @@ function getStructure() {
   }
 `
         let client = new GraphQLClient('https://blog.test/gql')
-        client.setHeader('Authorization', 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJwYWN1cmFyLWJsb2ciLCJhdWQiOiJwYWN1cmFyLWJsb2ciLCJpYXQiOjE2NzY3NjM4NzYuNjkwMDg3LCJleHAiOjE2NzY4NTAyNzYuNjkwMDg3LCJuYmYiOjE2NzY3NjM4NzYuNjkwMDg3LCJ1aWQiOiJlcmQxNThsazVzMm0zY3BqeWc1ZndnbTBwd250OHVnbmMyOW1qNG5hZmtydmNyaGZkZnBndnAzc3dwbW5yaiJ9.PpYbsaMlQFNBF5c_3zm01zkW7C6XicOmUg4MWCuEl9U');
+        client.setHeader('Authorization', 'Bearer ');
 
         const resp = await client.request(query, {
             spaceName: 'top'
